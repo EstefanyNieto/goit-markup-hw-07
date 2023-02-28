@@ -3,7 +3,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var($main-bg-color);
+  color: $main-bg-color;
   margin-bottom: 20px;
 }
 
@@ -25,15 +25,15 @@
   justify-content: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: var($main-bg-color);
+  color: $main-bg-color;
   fill:white;
-  transition: color var($time-ms) var($time-function ), background-color var($time-ms) var($time-function);
+  transition: color $time-ms $time-function, background-color $time-ms $time-function;
 }
 
 .social__media--svg:hover,
   .social__media--svg:focus{
-  background-color: var($webstudio-link-color);
-  color: var($main-bg-color);
+  background-color: $webstudio-link-color;
+  color: $main-bg-color;
 }
 .social__media--svg:hover{
   fill:#FFFFFF;

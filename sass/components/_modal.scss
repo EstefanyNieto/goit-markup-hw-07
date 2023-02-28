@@ -16,7 +16,7 @@
 }
 
 .modal{
-  background-color: var(--main-bg-color);
+  background-color: $main-bg-color;
   width: 528px;
   min-height: 581px;
   position: fixed;
@@ -35,7 +35,7 @@
   left: 490px;
   top: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--main-bg-color);
+  background-color: $main-bg-color;
   border-radius: 10%;
   display: flex;
   align-items: center;
@@ -95,9 +95,9 @@ color:solid rgba(33,33,33,0.2);
 }
 .modal__input:hover,
 .modal__input:focus{
-  border-color:var(--webstudio-link-color);
+  border-color:$webstudio-link-color;
   outline:none;
-  color:var(--webstudio-link-color);
+  color:$webstudio-link-color;
 }
 .modal__icon{
   position:absolute;
@@ -108,7 +108,7 @@ color:solid rgba(33,33,33,0.2);
 }
 .modal__input:hover + .modal__icon,
 .modal__input:focus + .modal__icon{
-  fill:var(--webstudio-link-color);
+  fill:$webstudio-link-color;
 }
 
 .modal__comments{
@@ -131,9 +131,9 @@ line-height: calc(20/13);
 color:#757575;
 }
 .modal__comments:focus{
-  border-color:var(--webstudio-link-color);
+  border-color:$webstudio-link-color;
   outline: none;
-  color:var(--webstudio-link-color);
+  color:$webstudio-link-color;
   font-weight: 400;
   Font-size: 12px;
   line-height: calc(20/13);

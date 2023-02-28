@@ -7,14 +7,14 @@
   display: flex;
   align-items:center;
   justify-content:center;
-  transition: border var(--time-ms) var(--time-function);
+  transition: border $time-ms $time-function;
 }
 
 .checkbox-icon{
   fill:white;
   }
   .modal__checkbox:checked + .checkbox__text>.checkbox__icon--wrapper{
-    background-color:var(--webstudio-link-color);
+    background-color:$webstudio-link-color;
     border:none;
 }
 .input{

@@ -5,7 +5,7 @@
 }
 
 .web__pages--button{
-background-color: var($our-team-bg-color);
+background-color: $our-team-bg-color;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -16,7 +16,7 @@ cursor: pointer;
 border-radius: 4px;
   border: 0px;
   padding: 6px 27px 6px 27px;
-  transition: color var($time-ms) var($time-function ), background-color var($time-ms) var($time-function);
+  transition: color $time-ms $time-function , background-color $time-ms $time-function;
 }
 .button__choices > li{
     margin-right: 8px;     
@@ -30,8 +30,8 @@ margin-bottom: 50px;
 }
 .web__pages--button:hover,
 .web__pages--button:focus{
-background-color: var($webstudio-link-color);
-color: var($main-bg-color);
+background-color: $webstudio-link-color;
+color: $main-bg-color;
 cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
   0px 1px 2px rgba(0, 0, 0, 0.08), 
@@ -88,7 +88,7 @@ letter-spacing: 0.06em;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: var($contact-detail-header);
+color: $contact-detail-header;
 }
 
 .card__content--item{
@@ -109,7 +109,7 @@ cursor: pointer;
 
 .projects > li{
 margin-bottom: 30px;
-transition: color var($time-ms) var($time-function ), background-color var($time-ms) var($time-function);
+transition: color $time-ms $time-function , background-color $time-ms $time-function;
 }
 .projects > li:nth-child(n+7){
 margin-bottom: 0px;

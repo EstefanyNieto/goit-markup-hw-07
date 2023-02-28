@@ -1,7 +1,7 @@
 
 .contact__link{
   text-decoration: none;
-  color: var(--contact-detail-header);
+  color: $contact-detail-header;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -9,12 +9,12 @@
   display: flex;
   align-items: center;
   padding-bottom: 32px;
-  transition: color var(--time-ms) var(--time-function);
+  transition: color $time-ms $time-function;
   }
   
   .contact__link:hover,
   .contact_.contact__link{
-    color: var(--webstudio-link-color);
+    color: $webstudio-link-color;
   }
   .contact__info{
     display: flex;
@@ -27,9 +27,9 @@
   .contact__icon{
     fill: currentColor;
     margin-right: 10px;
-    transition: color var(--time-ms) var(--time-function);
+    transition: color $time-ms $time-function;
   }
   .contact__icon:hover{
-    fill: var(--webstudio-link-color);
+    fill: $webstudio-link-color;
   }
   

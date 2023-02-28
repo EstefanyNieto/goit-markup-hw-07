@@ -1,6 +1,6 @@
 
 .footer{
-  background-color: var($footer-bg-color);
+  background-color: $footer-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
   
@@ -17,12 +17,12 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var($main-bg-color);
+  color: $main-bg-color;
   font-style: normal;
   }
   
   .webstudio__link{
-  color: var($webstudio-link-color);
+  color: $webstudio-link-color;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -40,8 +40,8 @@
     font-style: normal;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var($contact-detail-footer);
-    transition: color var($time-ms) var($time-function);
+    color: $contact-detail-footer;
+    transition: color $time-ms $time-function;
   }
     
   
@@ -58,7 +58,7 @@
   .contact__detail--footer:hover,
   .contact__detail--footer:active,
   .contact__detail--footer:focus{
-  color: var($webstudio-link-color);
+  color: $webstudio-link-color;
   }
   
   .address-footer-item:not(:last-child){

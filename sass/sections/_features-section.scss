@@ -44,7 +44,7 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var($contact-detail-header);
+  color: $contact-detail-header;
   }
   
   .our__features--container{
@@ -62,7 +62,7 @@
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
-    background-color: var($our-team-bg-color);
+    background-color: $our-team-bg-color;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -9,7 +9,7 @@ margin-right: 53px;
 .nav__item{
   cursor: pointer;
   text-decoration: none;
-  color: var(--main-color);
+  color: $main-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -20,14 +20,14 @@ margin-right: 53px;
 .nav__item:hover,
 .nav__item:active,
 .nav__item:focus{
-  color: var(--webstudio-link-color);
+  color: $webstudio-link-color;
  }
 
 
  .nav__link--active{
   color:#2196F3;
   position:relative;
-  transition: color var(--time-ms)var(--time-function);
+  transition: color $time-ms $time-function;
 }
 .nav__link--active::after{
   content:'';

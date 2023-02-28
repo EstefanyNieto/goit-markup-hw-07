@@ -30,16 +30,16 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   margin-right: 12px;
-  transition: border var(--time-ms) var(--time-function);
+  transition: border $time-ms $time-function;
   outline: none;
 }
 .email__input--element:focus,
 .email__input--element:hover{
-  border: 1px solid var(--webstudio-link-color);
+  border: 1px solid $webstudio-link-color;
   
 }
 .subscribe__button{
-  background-color: var(--webstudio-link-color);
+  background-color: $webstudio-link-color;
   border: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
