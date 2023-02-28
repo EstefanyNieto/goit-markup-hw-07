@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-@import"./base.scss";
-@import"./base.container.scss";
-@import"./logo.scss";
+@import"./utils/variables.scss";
+@import"./base/base";
+@import"./base/container";
+@import"./components/logo.scss";
 @import"./components/checkbox.scss";
 @import"./components/contact-info.scss";
 @import"./components/modal.scss";
@@ -10,12 +11,12 @@
 @import"./sections/features-section.scss";
 @import"./sections/find-us-section.scss";
 @import"./sections/footer.scss";
-@import"./sections/hero-sections.scss";
-@import"./sections/our-team-sections.scss";
-@import"./sections/portfolio-projects-sections.scss";
+@import"./sections/hero-section";
+@import"./sections/our-team-section.scss";
+@import"./sections/portfolio-projects-section.scss";
 @import"./sections/regular-customers-section.scss";
-@import"./what-we-do-section.scss";
-@import"./utils/variables.scss";
+@import"./sections/what-we-do-section";
+
 
 
 
