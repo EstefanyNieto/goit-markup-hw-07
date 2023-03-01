@@ -42,13 +42,10 @@
   padding: 10px 20px;
   cursor: pointer;
   transition: box-shadow $time-ms $time-function, background-color $time-ms $time-function;
-
-
+  &:hover,
+  &:focus{box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: $request-our-service-color;
+  }
 }
 
-.hero-section__request-our-service-button:hover,
-.hero-section__request-our-service-button:focus{
-cursor: pointer;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-background-color: $request-our-service-color;
-}
+

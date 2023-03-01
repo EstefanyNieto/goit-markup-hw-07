@@ -14,9 +14,9 @@ text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
 border-radius: 4px;
-  border: 0px;
-  padding: 6px 27px 6px 27px;
-  transition: color $time-ms $time-function , background-color $time-ms $time-function;
+border: 0px;
+padding: 6px 27px 6px 27px;
+transition: color $time-ms $time-function , background-color $time-ms $time-function;
 }
 .button__choices > li{
     margin-right: 8px;     

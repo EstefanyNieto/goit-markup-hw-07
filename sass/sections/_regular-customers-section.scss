@@ -18,12 +18,12 @@
 .regular-customers-icons__link{
   width: 170px;
   height: 92px;
-  border: 1px solid $regular-custm-bg-color;
+  border: 1px solid #afb1b8;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  color: $regular-custm-bg-color;
+  color: #afb1b8;
   transition: color $time-ms $time-function, border-color $time-ms $time-function;
 
 }
@@ -33,8 +33,8 @@
 }
 .regular-customers-icons__link:hover,
 .regular-customers-icons__link:focus{
-  color: $webstudio-link-color;
-  border-color:$webstudio-link-color;
+  color: #2196f3;
+  border-color:#2196f3;
 
 }
 .section__regular--customer{
